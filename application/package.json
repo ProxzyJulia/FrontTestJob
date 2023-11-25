@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "dependencies": {
+    "@metamask/detect-provider": "^2.0.0"
+  }
+}
